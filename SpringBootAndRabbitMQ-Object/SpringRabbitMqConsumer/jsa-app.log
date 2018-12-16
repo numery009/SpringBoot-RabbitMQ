@@ -1,0 +1,241 @@
+2018-12-10 23:16:50.637  WARN 22182 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/home/numery/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+	jar:file:/home/numery/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2018-12-10 23:16:50.650  INFO 22182 --- [main] r.SpringRabbitMqConsumerApplicationTests : Starting SpringRabbitMqConsumerApplicationTests on numery-Lenovo-B490 with PID 22182 (started by numery in /home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer)
+2018-12-10 23:16:50.651  INFO 22182 --- [main] r.SpringRabbitMqConsumerApplicationTests : No active profile set, falling back to default profiles: default
+2018-12-10 23:16:50.691  INFO 22182 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@693fe6c9: startup date [Mon Dec 10 23:16:50 CST 2018]; root of context hierarchy
+2018-12-10 23:16:51.395  INFO 22182 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$cd82dcf1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 23:16:52.118  INFO 22182 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2018-12-10 23:16:52.118  INFO 22182 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-12-10 23:16:52.216  INFO 22182 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#57eb2f00:0/SimpleConnection@23da6925 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 33334]
+2018-12-10 23:16:52.265  INFO 22182 --- [main] r.SpringRabbitMqConsumerApplicationTests : Started SpringRabbitMqConsumerApplicationTests in 1.975 seconds (JVM running for 2.764)
+2018-12-10 23:16:52.309  INFO 22182 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@693fe6c9: startup date [Mon Dec 10 23:16:50 CST 2018]; root of context hierarchy
+2018-12-10 23:16:52.312  INFO 22182 --- [Thread-2] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-12-10 23:16:52.321  INFO 22182 --- [Thread-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2018-12-10 23:16:53.260  INFO 22182 --- [Thread-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2018-12-10 23:16:53.260  INFO 22182 --- [Thread-2] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2018-12-11 23:41:16.399  INFO 22498 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Starting SpringRabbitMqConsumerApplication on numery-Lenovo-B490 with PID 22498 (/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/target/classes started by numery in /home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer)
+2018-12-11 23:41:16.403  INFO 22498 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : No active profile set, falling back to default profiles: default
+2018-12-11 23:41:16.474  INFO 22498 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Tue Dec 11 23:41:16 CST 2018]; root of context hierarchy
+2018-12-11 23:41:17.393  INFO 22498 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$4588070] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-11 23:41:18.049  INFO 22498 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-11 23:41:18.060  INFO 22498 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-12-11 23:41:18.063  INFO 22498 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-12-11 23:41:18.121  INFO 22498 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2018-12-11 23:41:18.121  INFO 22498 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-12-11 23:41:18.183  INFO 22498 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#53272e30:0/SimpleConnection@6ae71583 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 39610]
+2018-12-11 23:41:18.236  INFO 22498 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Started SpringRabbitMqConsumerApplication in 2.198 seconds (JVM running for 2.729)
+2018-12-11 23:41:39.577  INFO 22498 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-11 23:41:39.577  INFO 22498 --- [RMI TCP Connection(2)-127.0.0.1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Tue Dec 11 23:41:16 CST 2018]; root of context hierarchy
+2018-12-11 23:41:39.579  INFO 22498 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-12-11 23:41:39.582  INFO 22498 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2018-12-11 23:41:40.315  INFO 22498 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2018-12-11 23:41:40.316  INFO 22498 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2018-12-11 23:41:40.318  INFO 22498 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-12-11 23:41:40.319  INFO 22498 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-12-12 00:05:13.895  INFO 24081 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Starting SpringRabbitMqConsumerApplication on numery-Lenovo-B490 with PID 24081 (/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/target/classes started by numery in /home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer)
+2018-12-12 00:05:13.899  INFO 24081 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : No active profile set, falling back to default profiles: default
+2018-12-12 00:05:14.014  INFO 24081 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Wed Dec 12 00:05:14 CST 2018]; root of context hierarchy
+2018-12-12 00:05:14.821  INFO 24081 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$fd6304c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-12 00:05:15.446  INFO 24081 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-12 00:05:15.457  INFO 24081 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-12-12 00:05:15.461  INFO 24081 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-12-12 00:05:15.522  INFO 24081 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2018-12-12 00:05:15.522  INFO 24081 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-12-12 00:05:15.603  INFO 24081 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#784e180a:0/SimpleConnection@495b254f [delegate=amqp://guest@127.0.0.1:5672/, localPort= 39752]
+2018-12-12 00:05:15.660  INFO 24081 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Started SpringRabbitMqConsumerApplication in 2.157 seconds (JVM running for 2.75)
+2018-12-12 00:05:36.857  INFO 24081 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-12 00:05:36.858  INFO 24081 --- [RMI TCP Connection(2)-127.0.0.1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Wed Dec 12 00:05:14 CST 2018]; root of context hierarchy
+2018-12-12 00:05:36.859  INFO 24081 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-12-12 00:05:36.862  INFO 24081 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2018-12-12 00:05:37.741  INFO 24081 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2018-12-12 00:05:37.741  INFO 24081 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2018-12-12 00:05:37.743  INFO 24081 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-12-12 00:05:37.744  INFO 24081 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-12-12 00:12:35.689  INFO 25172 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Starting SpringRabbitMqConsumerApplication on numery-Lenovo-B490 with PID 25172 (/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/target/classes started by numery in /home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer)
+2018-12-12 00:12:35.693  INFO 25172 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : No active profile set, falling back to default profiles: default
+2018-12-12 00:12:35.772  INFO 25172 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Wed Dec 12 00:12:35 CST 2018]; root of context hierarchy
+2018-12-12 00:12:36.637  INFO 25172 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$a2959dfe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-12 00:12:37.230  INFO 25172 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-12 00:12:37.238  INFO 25172 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-12-12 00:12:37.240  INFO 25172 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-12-12 00:12:37.293  INFO 25172 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2018-12-12 00:12:37.294  INFO 25172 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-12-12 00:12:37.382  INFO 25172 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#55dd09b0:0/SimpleConnection@3468cc5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 39894]
+2018-12-12 00:12:37.432  INFO 25172 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Started SpringRabbitMqConsumerApplication in 2.118 seconds (JVM running for 2.63)
+2018-12-12 00:12:37.531  WARN 25172 --- [SimpleAsyncTaskExecutor-1] o.s.a.s.c.Jackson2JsonMessageConverter   : Could not convert incoming message with content-type [application/octet-stream]
+2018-12-12 00:12:37.539  WARN 25172 --- [SimpleAsyncTaskExecutor-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.listener.exception.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company)]
+Bean [com.javasampleapproach.rabbitmq.consumer.Consumer@207b8649]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:106)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:822)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:745)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$001(SimpleMessageListenerContainer.java:97)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$1.invokeListener(SimpleMessageListenerContainer.java:189)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.invokeListener(SimpleMessageListenerContainer.java:1276)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:726)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1219)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1189)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1500(SimpleMessageListenerContainer.java:97)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1421)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.messaging.handler.annotation.support.MethodArgumentNotValidException: Could not resolve method parameter at index 0 in public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company): 1 error(s): [Error in object 'company': codes []; arguments []; default message [Payload value must not be empty]] 
+	at org.springframework.messaging.handler.annotation.support.PayloadArgumentResolver.resolveArgument(PayloadArgumentResolver.java:119)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:112)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:135)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:107)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:49)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:126)
+	... 12 common frames omitted
+
+2018-12-12 00:12:37.540  WARN 25172 --- [SimpleAsyncTaskExecutor-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@44c2a5f(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=jsa.exchange.object, receivedRoutingKey=jsa.routingkey.object, receivedDelay=null, deliveryTag=4, messageCount=0, consumerTag=amq.ctag-g-qzydKdUKqG-j_6Wc-U5Q, consumerQueue=jsa.queue.object])
+2018-12-12 00:12:37.542  WARN 25172 --- [SimpleAsyncTaskExecutor-1] o.s.a.s.c.Jackson2JsonMessageConverter   : Could not convert incoming message with content-type [application/octet-stream]
+2018-12-12 00:12:37.542  WARN 25172 --- [SimpleAsyncTaskExecutor-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.listener.exception.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company)]
+Bean [com.javasampleapproach.rabbitmq.consumer.Consumer@207b8649]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:106)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:822)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:745)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$001(SimpleMessageListenerContainer.java:97)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$1.invokeListener(SimpleMessageListenerContainer.java:189)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.invokeListener(SimpleMessageListenerContainer.java:1276)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:726)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1219)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1189)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1500(SimpleMessageListenerContainer.java:97)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1421)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.messaging.handler.annotation.support.MethodArgumentNotValidException: Could not resolve method parameter at index 0 in public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company): 1 error(s): [Error in object 'company': codes []; arguments []; default message [Payload value must not be empty]] 
+	at org.springframework.messaging.handler.annotation.support.PayloadArgumentResolver.resolveArgument(PayloadArgumentResolver.java:119)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:112)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:135)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:107)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:49)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:126)
+	... 12 common frames omitted
+
+2018-12-12 00:12:37.543  WARN 25172 --- [SimpleAsyncTaskExecutor-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@44c2a5f(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=jsa.exchange.object, receivedRoutingKey=jsa.routingkey.object, receivedDelay=null, deliveryTag=5, messageCount=0, consumerTag=amq.ctag-g-qzydKdUKqG-j_6Wc-U5Q, consumerQueue=jsa.queue.object])
+2018-12-12 00:12:37.548  WARN 25172 --- [SimpleAsyncTaskExecutor-1] o.s.a.s.c.Jackson2JsonMessageConverter   : Could not convert incoming message with content-type [application/octet-stream]
+2018-12-12 00:12:37.549  WARN 25172 --- [SimpleAsyncTaskExecutor-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.listener.exception.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company)]
+Bean [com.javasampleapproach.rabbitmq.consumer.Consumer@207b8649]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:106)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:822)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:745)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$001(SimpleMessageListenerContainer.java:97)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$1.invokeListener(SimpleMessageListenerContainer.java:189)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.invokeListener(SimpleMessageListenerContainer.java:1276)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:726)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1219)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1189)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1500(SimpleMessageListenerContainer.java:97)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1421)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.messaging.handler.annotation.support.MethodArgumentNotValidException: Could not resolve method parameter at index 0 in public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company): 1 error(s): [Error in object 'company': codes []; arguments []; default message [Payload value must not be empty]] 
+	at org.springframework.messaging.handler.annotation.support.PayloadArgumentResolver.resolveArgument(PayloadArgumentResolver.java:119)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:112)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:135)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:107)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:49)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:126)
+	... 12 common frames omitted
+
+2018-12-12 00:12:37.549  WARN 25172 --- [SimpleAsyncTaskExecutor-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@44c2a5f(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=jsa.exchange.object, receivedRoutingKey=jsa.routingkey.object, receivedDelay=null, deliveryTag=6, messageCount=0, consumerTag=amq.ctag-g-qzydKdUKqG-j_6Wc-U5Q, consumerQueue=jsa.queue.object])
+2018-12-12 00:12:43.629  INFO 25172 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-12 00:12:43.629  INFO 25172 --- [RMI TCP Connection(2)-127.0.0.1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Wed Dec 12 00:12:35 CST 2018]; root of context hierarchy
+2018-12-12 00:12:43.631  INFO 25172 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-12-12 00:12:43.634  INFO 25172 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2018-12-12 00:12:44.559  INFO 25172 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2018-12-12 00:12:44.560  INFO 25172 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2018-12-12 00:12:44.561  INFO 25172 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-12-12 00:12:44.562  INFO 25172 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-12-12 00:14:33.179  INFO 25412 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Starting SpringRabbitMqConsumerApplication on numery-Lenovo-B490 with PID 25412 (/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/target/classes started by numery in /home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer)
+2018-12-12 00:14:33.182  INFO 25412 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : No active profile set, falling back to default profiles: default
+2018-12-12 00:14:33.265  INFO 25412 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Wed Dec 12 00:14:33 CST 2018]; root of context hierarchy
+2018-12-12 00:14:34.003  INFO 25412 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$4c6416d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-12 00:14:34.089  WARN 25412 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'consumer' defined in file [/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/target/classes/com/javasampleapproach/rabbitmq/consumer/Consumer.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Could not register rabbit listener endpoint on [public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company)] for bean consumer, no RabbitListenerContainerFactory with id 'jsaFactory' was found in the application context; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'jsaFactory' available
+2018-12-12 00:14:34.097  INFO 25412 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-12-12 00:14:34.179 ERROR 25412 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'jsaFactory' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'jsaFactory' in your configuration.
+
+2018-12-12 00:15:04.456  INFO 25488 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Starting SpringRabbitMqConsumerApplication on numery-Lenovo-B490 with PID 25488 (/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/target/classes started by numery in /home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer)
+2018-12-12 00:15:04.460  INFO 25488 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : No active profile set, falling back to default profiles: default
+2018-12-12 00:15:04.531  INFO 25488 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Wed Dec 12 00:15:04 CST 2018]; root of context hierarchy
+2018-12-12 00:15:05.337  INFO 25488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$4588070] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-12 00:15:05.941  INFO 25488 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-12 00:15:05.952  INFO 25488 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-12-12 00:15:05.955  INFO 25488 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-12-12 00:15:06.013  INFO 25488 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2018-12-12 00:15:06.013  INFO 25488 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-12-12 00:15:06.102  INFO 25488 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#55dd09b0:0/SimpleConnection@3468cc5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 39948]
+2018-12-12 00:15:06.148  WARN 25488 --- [SimpleAsyncTaskExecutor-1] o.s.a.s.c.Jackson2JsonMessageConverter   : Could not convert incoming message with content-type [application/octet-stream]
+2018-12-12 00:15:06.155  WARN 25488 --- [SimpleAsyncTaskExecutor-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.listener.exception.ListenerExecutionFailedException: Listener method could not be invoked with the incoming message
+Endpoint handler details:
+Method [public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company)]
+Bean [com.javasampleapproach.rabbitmq.consumer.Consumer@2cae1042]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:135)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:106)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:822)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:745)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$001(SimpleMessageListenerContainer.java:97)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$1.invokeListener(SimpleMessageListenerContainer.java:189)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.invokeListener(SimpleMessageListenerContainer.java:1276)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:726)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1219)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:1189)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1500(SimpleMessageListenerContainer.java:97)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1421)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.messaging.handler.annotation.support.MethodArgumentNotValidException: Could not resolve method parameter at index 0 in public void com.javasampleapproach.rabbitmq.consumer.Consumer.recievedMessage(com.javasampleapproach.rabbitmq.model.Company): 1 error(s): [Error in object 'company': codes []; arguments []; default message [Payload value must not be empty]] 
+	at org.springframework.messaging.handler.annotation.support.PayloadArgumentResolver.resolveArgument(PayloadArgumentResolver.java:119)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:112)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:135)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:107)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:49)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:126)
+	... 12 common frames omitted
+
+2018-12-12 00:15:06.156  WARN 25488 --- [SimpleAsyncTaskExecutor-1] ingErrorHandler$DefaultExceptionStrategy : Fatal message conversion error; message rejected; it will be dropped or routed to a dead letter exchange, if so configured: (Body:'[B@284d3dd9(byte[0])' MessageProperties [headers={}, timestamp=null, messageId=null, userId=null, receivedUserId=null, appId=null, clusterId=null, type=null, correlationId=null, correlationIdString=null, replyTo=null, contentType=application/octet-stream, contentEncoding=null, contentLength=0, deliveryMode=null, receivedDeliveryMode=PERSISTENT, expiration=null, priority=0, redelivered=true, receivedExchange=jsa.exchange.object, receivedRoutingKey=jsa.routingkey.object, receivedDelay=null, deliveryTag=1, messageCount=0, consumerTag=amq.ctag-5LR4SbTHc_fnmx8D8E-bug, consumerQueue=jsa.queue.object])
+2018-12-12 00:15:06.159  INFO 25488 --- [main] c.j.r.SpringRabbitMqConsumerApplication  : Started SpringRabbitMqConsumerApplication in 2.067 seconds (JVM running for 2.576)
+2018-12-12 00:15:13.937  INFO 25488 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-12-12 00:15:13.937  INFO 25488 --- [RMI TCP Connection(2)-127.0.0.1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@163e4e87: startup date [Wed Dec 12 00:15:04 CST 2018]; root of context hierarchy
+2018-12-12 00:15:13.939  INFO 25488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-12-12 00:15:13.941  INFO 25488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2018-12-12 00:15:14.236  INFO 25488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2018-12-12 00:15:14.236  INFO 25488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147482648
+2018-12-12 00:15:14.238  INFO 25488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-12-12 00:15:14.238  INFO 25488 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans

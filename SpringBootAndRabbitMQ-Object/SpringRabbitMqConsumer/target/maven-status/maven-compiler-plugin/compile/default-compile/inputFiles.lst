@@ -1,0 +1,5 @@
+/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/src/main/java/com/javasampleapproach/rabbitmq/SpringRabbitMqConsumerApplication.java
+/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/src/main/java/com/javasampleapproach/rabbitmq/model/Company.java
+/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/src/main/java/com/javasampleapproach/rabbitmq/config/RabbitMqConfig.java
+/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/src/main/java/com/javasampleapproach/rabbitmq/model/Product.java
+/home/numery/Desktop/SpringBoot-RabbitMQ/SpringRabbitMqConsumer/src/main/java/com/javasampleapproach/rabbitmq/consumer/Consumer.java
